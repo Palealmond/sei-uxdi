@@ -6,9 +6,13 @@
   padding: 0;
 }
 
-.Header {
+.header-header {
   background-color: #C3B8A1;
   font-family: 'Caudex', serif;
-
+  color: #1E4A45;
+  width: 393px;
+  height: 60px;
+  left: 0px;
+  top: 58px;
 
 }
