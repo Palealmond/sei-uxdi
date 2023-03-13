@@ -13,11 +13,11 @@ const Header = () => {
     const date = new Date();
     const hours = date.getHours();
     if (hours < 12) {
-      return "morning";
+      return "Morning";
     } else if (hours < 18) {
-      return "afternoon";
+      return "Afternoon";
     } else {
-      return "evening";
+      return "Evening";
     }
   }
 
