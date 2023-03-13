@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react"
+import '../header.css'
+
 
 const Header = () => {
   const [isDark, setIsDark] = useState(false);
@@ -7,7 +9,7 @@ const Header = () => {
     setIsDark(!isDark);
   };
 
-  function timeOfDay() { 
+  function timeOfDay() {
     const date = new Date();
     const hours = date.getHours();
     if (hours < 12) {
@@ -31,7 +33,7 @@ const Header = () => {
     timeOfDay();
   }, []);
 
-  
+
 
   return (
     <header className="header">
@@ -40,9 +42,11 @@ const Header = () => {
           {isDark ? "Light" : "Dark"}
         </button>
         <h1>Good {timeOfDay()}!</h1>
-        
+
         <span className="text-muted">Header</span>
       </div>
     </header>
   );
 }
+
+export default Header
