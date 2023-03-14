@@ -14,9 +14,9 @@ export function FoodHandler() {
           <div className="media-element">
             
             <img src={food.img} alt="" />
+            <h3 className="fooditem">{food.productName}</h3>
             <p className="fooddescription">{food.description}</p>
           
-            <h3 className="fooditem">{food.productName}</h3>
           </div>
         
       ))

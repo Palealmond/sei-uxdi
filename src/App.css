@@ -10,8 +10,21 @@
 }
 
 body {
-  background-color: #F4F1E8;
+  background-color: #F4F1E8
 }
+
+.dark {
+  background-color: #000000;
+}
+
+
+
+
+
+
+
+
+
 
 .header-header {
   display: flex;
@@ -51,6 +64,7 @@ body {
 .header-h1 {
   margin-left: 12px;
   font-size: 32px;
+  color:#1E4A45
 }
 
 .dark .header-h1 {
