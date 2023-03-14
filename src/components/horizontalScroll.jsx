@@ -14,10 +14,14 @@ export default function HorizontalScrollBar () {
     <h2 className="section-title">Groups elements</h2>
 <div className="media-scroller media-scroller--with-groups snaps-inline">
 
-        
-          <CoffeeHandler /> 
+<div className="media-group"> 
+        <CoffeeHandler /> 
+  
           <FoodHandler />
+        </div>
+        
           </div>
+        
 
           
           
