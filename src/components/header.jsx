@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react"
-import moon from '../assets/Icon (toggle switch)/moon.svg'
-import lightsun from '../assets/Icon (toggle switch)/light-mode-sun.svg'
-import darksun from '../assets/Icon (toggle switch)/dark-mode-sun.svg'
+// import Moon from "../assets/moon.svg";
+// import Sun from "../assets/sun.svg";
+
 
 
 
