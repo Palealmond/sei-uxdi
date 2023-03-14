@@ -4,6 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  transition: all .2s ease;
 }
 
 body {
@@ -23,15 +24,14 @@ body {
   justify-content: space-between;
   background-color: #C3B8A1;
   font-family: 'Caudex', serif;
-
   color: #1E4A45;
   align-items: center;
   width: 393px;
   height: 60px;
-  left: 0px;
-  top: 58px;
+}
 
-
+.dark .header-container {
+  background-color: #2B2B2B;
 }
 
 .night-mode-toggle {
@@ -43,11 +43,11 @@ body {
 }
 
 .header-h1 {
-
   margin-left: 12px;
+}
 
-  background-color: #C3B8A1;
-
+.dark .header-h1 {
+  color: #EBEBEB;
 }
 
 .toggle-container {
@@ -60,7 +60,12 @@ body {
   background-color: #F4F1E8;
   transition: background ease-out 300ms;
   margin-right: 16px;
+  cursor: pointer;
 
+}
+
+.dark .toggle-container {
+  background-color: #232323;
 }
 
 
@@ -76,8 +81,9 @@ body {
   transition: left ease-out 300ms;
 }
 
-.knob-dark {
+.dark .knob {
   left: 2px;
+  background-color: #434343;
 }
 
 .moon {
@@ -100,8 +106,8 @@ body {
   transition: fill ease-out 3000ms;
 }
 
-.moon-path-dark {
-  fill: url("#dark-gradient")
+.dark .moon-path {
+  fill: #C3B8A1
 }
 
 .sun {
@@ -135,7 +141,7 @@ body {
   transition: fill ease-out 300ms;
 }
 
-.swirl-path-dark {
+.dark .swirl-path {
   fill: #fff;
 }
 
@@ -144,8 +150,8 @@ body {
   transition: fill ease-out 300ms;
 }
 
-.sun-path-dark {
-  fill: #1E4A45;
+.dark .sun-path {
+  fill: #434343;
 }
 
 .title {
@@ -166,7 +172,7 @@ body {
   transition: color ease-out 300ms;
 }
 
-.title-dark {
+.dark .title {
   color: #fff;
 }
 

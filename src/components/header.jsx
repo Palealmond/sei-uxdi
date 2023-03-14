@@ -1,8 +1,4 @@
 import React, { useEffect, useState } from "react"
-// import Moon from "../assets/moon.svg";
-// import Sun from "../assets/sun.svg";
-
-
 
 
 
@@ -12,6 +8,7 @@ const Header = () => {
 
   const toggleTheme = () => {
     setIsDark(!isDark);
+
   };
 
   function timeOfDay() {
