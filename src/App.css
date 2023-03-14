@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Caudex:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   background-color: #F4F1E8;
+  font-family: 'Caudex', serif;
 }
 
 .header-header {
@@ -202,10 +203,41 @@
   }
 }
 
+footer {
+  width: 100%;
+}
+
 .footer-container {
   background-color: #1e4a45;
-  color: #F4F1E8;
   text-align: left;
+  /* margin-top: auto; */
+  position: relative;
+  bottom: 0;
+  left: 0;
+  padding-left: 23px;
+  padding-top: 36px;
 
+}
+
+.footer-container h4 {
+  margin-bottom: 18px;
+  font-size: 16px;
+  color: #F4F1E8;
+}
+
+.footer-container h5 {
+  padding-bottom: 31px;
+  font-size: 14px;
+  margin-top: 40px;
+  color: #F4F1E8;
+}
+
+.h4 {
+  font-family: 'Caudex', serif;
+}
+
+.footer-image {
+  margin-bottom: 40px;
+  color: #C3B8A1;
 }
 
