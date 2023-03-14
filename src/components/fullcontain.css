@@ -1,0 +1,12 @@
+.fullcontainer {
+  display: flex;
+  flex-direction: column;
+  width:  363px;
+  height: 371px;
+  background-color: #ffffff;
+  display: flex;
+  margin-left: 17px;
+  margin-right: 17px;
+  border-radius: 20px;
+
+}
