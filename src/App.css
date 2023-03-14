@@ -4,7 +4,10 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  /* font-family: 'Caudex', serif; */
+}
+
+body {
+  background-color: #F4F1E8;
 }
 
 .header-header {
@@ -33,7 +36,7 @@
 
 .night-mode-toggle {
   margin-right: 16px;
-  background: #F4F1E8;
+  background: #fff;
   border-radius: 36.5px;
 
 
@@ -56,11 +59,11 @@
   border-radius: 36.5px;
   background-color: #F4F1E8;
   transition: background ease-out 300ms;
+  margin-right: 16px;
+
 }
 
-.toggle-container-dark {
-  /* background: linear-gradient(90deg, #20045B -3.13%, #7A3DFA 103.13%); */
-}
+
 
 .knob {
   position: absolute;
@@ -93,7 +96,7 @@
 }
 
 .moon-path {
-  fill: #FFC634;
+  fill: #C3B8A1;
   transition: fill ease-out 3000ms;
 }
 
@@ -128,7 +131,7 @@
 }
 
 .swirl-path {
-  fill: #D79881;
+  fill: #1E4A45;
   transition: fill ease-out 300ms;
 }
 
@@ -142,7 +145,7 @@
 }
 
 .sun-path-dark {
-  fill: #AD87FF;
+  fill: #1E4A45;
 }
 
 .title {
@@ -159,7 +162,7 @@
   display: flex;
   align-items: flex-end;
   letter-spacing: -0.165px;
-  color: #D79881;
+  color: #1E4A45;
   transition: color ease-out 300ms;
 }
 
@@ -174,6 +177,7 @@
   background-color: #9A6767;
   transition: background-color ease-out 300ms;
 }
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -199,6 +203,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
