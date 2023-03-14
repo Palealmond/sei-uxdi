@@ -14,7 +14,7 @@ export function CarSlider() {
       <AutoplaySlider mobileTouch={true}
         play={true}
         cancelOnInteraction={false}
-        interval={5000}
+        interval={3000}
         
        
     
