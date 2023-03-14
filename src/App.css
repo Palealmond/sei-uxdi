@@ -1,15 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@600&display=swap');
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Caudex', serif;
   transition: all .2s ease;
 }
 
 body {
-  background-color: #F4F1E8;
+  background-color: #F4F1E8
 }
+
+.dark {
+  background-color: #000000;
+}
+
+
+
+
+
+
+
+
+
 
 .header-header {
   display: flex;
@@ -20,6 +35,7 @@ body {
 }
 
 .header-container {
+  position: -webkit-sticky;
   display: flex;
   justify-content: space-between;
   background-color: #C3B8A1;
@@ -48,6 +64,9 @@ body {
 
 .header-h1 {
   margin-left: 12px;
+  font-size: 32px;
+  color:#1E4A45;
+  font-weight: 400;
 }
 
 .dark .header-h1 {
@@ -258,40 +277,14 @@ footer {
   margin-bottom: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.media-scroller::-webkit-scrollbar {
+  display: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Hide scrollbar for IE, Edge and Firefox */
+.media-scroller {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.footer-container {
-  background-color: #1e4a45;
-  color: #F4F1E8;
-  text-align: left;
-
-}
-
