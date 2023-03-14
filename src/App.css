@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Caudex:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #F4F1E8;
+  /* font-family: 'Caudex', serif; */
 }
 
 .header-header {
@@ -25,6 +25,8 @@
   align-items: center;
   width: 393px;
   height: 60px;
+  left: 0px;
+  top: 58px;
 
 
 }
@@ -171,4 +173,72 @@
   height: 400px;
   background-color: #9A6767;
   transition: background-color ease-out 300ms;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+footer {
+  width: 100%;
+}
+
+.footer-container {
+  background-color: #1e4a45;
+  text-align: left;
+  /* margin-top: auto; */
+  position: relative;
+  bottom: 0;
+  left: 0;
+  padding-left: 23px;
+  padding-top: 36px;
+  font-family: 'Epilogue', sans-serif;
+}
+
+.footer-container h4 {
+  margin-bottom: 18px;
+  font-size: 16px;
+  color: #F4F1E8;
+  font-family: 'Epilogue', sans-serif;
+}
+
+.footer-container h5 {
+  padding-bottom: 31px;
+  font-size: 14px;
+  margin-top: 40px;
+  color: #F4F1E8;
+  font-family: 'Epilogue', sans-serif;
+}
+
+.h4 {
+  font-family: 'Epilogue', sans-serif;
+}
+
+.footer-image {
+  margin-bottom: 40px;
 }
