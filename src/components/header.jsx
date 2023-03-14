@@ -20,8 +20,6 @@ export const Header = () => {
   }
 
 
-
-
   useEffect(() => {
     document.body.classList.toggle("dark", isDark);
   }, [isDark]);
@@ -34,15 +32,12 @@ export const Header = () => {
   
 
   return (
-    <header className="header">
-      <div className="container">
-        <button className="btn btn-dark" onClick={toggleTheme}>
-          {isDark ? "Light" : "Dark"}
-        </button>
-        <h1>Good {timeOfDay()}!</h1>
-        
-        <span className="text-muted">Header</span>
-      </div>
-    </header>
+    <div className="header-container">
+      <h1 className="header-h1">Good {timeOfDay()}</h1>
+      <button className="header-button" onClick={toggleTheme}>
+        {isDark ? "Light" : "Dark"}
+      </button>
+    </div>
+    // </header>
   );
 }

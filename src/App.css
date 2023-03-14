@@ -4,15 +4,38 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  background-color: #F4F1E8;
 }
 
 .header-header {
+  display: flex;
   background-color: #C3B8A1;
   font-family: 'Caudex', serif;
   color: #1E4A45;
+
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #C3B8A1;
+  font-family: 'Caudex', serif;
+
+  color: #1E4A45;
+  align-items: center;
   width: 393px;
   height: 60px;
-  left: 0px;
-  top: 58px;
+
+
+}
+
+.header-button {
+  margin-right: 16px;
+
+}
+
+.header-h1 {
+  margin-left: 12px;
+  background-color: #C3B8A1;
 
 }
