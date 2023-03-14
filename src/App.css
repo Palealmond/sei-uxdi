@@ -34,6 +34,10 @@ body {
   background-color: #2B2B2B;
 }
 
+.dark .footer-container {
+  background-color: #232323;
+}
+
 .night-mode-toggle {
   margin-right: 16px;
   background: #fff;
