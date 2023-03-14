@@ -27,21 +27,8 @@
     "description": "",
     "img": "https://i.imgur.com/q87u9i1.png"
   },
-    {
-    "productName":"Peppermint Mocha",
-    "description": "",
-    "img": "https://lh3.googleusercontent.com/s6-8zy7FTzYiSJUJAyj5XaZ5XUnk8A06Ls9HwqZF8hZbu4dKuQHXXXUx-2E8DqXdrSo=w2400"
-  }, 
-  {
-    "productName":"Hazelnut Cappucino",
-    "description": "",
-    "img": "https://lh5.googleusercontent.com/A8niXIPNZLBU3rwdDVic2OjIDSrQZIdYB85ulpKSnZtevT7hlX33me5nBclywlP2Bd4=w2400"
-  },
-    {
-    "productName":"Gingerbread Latte",
-    "description": "",
-    "img": "https://lh4.googleusercontent.com/5KmM5mwbUYtiwub9vGXFF-_y2RH2Y7YAy6oQJvYO0ZLmZMnK3ob8_Bt17l3RJ5bcSWA=w2400"
-  },
+  
+
     {
     "productName":"Caramel Latte",
     "description": "",

@@ -37,7 +37,8 @@ const Header = () => {
 
 
   return (
-    <div className="header-container">
+    <div
+      className="header-container">
       <h1 className="header-h1">Good {timeOfDay()}</h1>
       <div onClick={toggleTheme} className="toggle-container">
         <span className="moon">
