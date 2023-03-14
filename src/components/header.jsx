@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react"
 
 
-
 const Header = () => {
   const [isDark, setIsDark] = useState(false);
 
@@ -34,14 +33,12 @@ const Header = () => {
 
 
   return (
-    // <header className="header-header">
     <div className="header-container">
       <h1 className="header-h1">Good {timeOfDay()}</h1>
       <button className="header-button" onClick={toggleTheme}>
         {isDark ? "Light" : "Dark"}
       </button>
     </div>
-    // </header>
   );
 }
 
