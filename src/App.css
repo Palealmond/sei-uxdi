@@ -26,6 +26,8 @@
   align-items: center;
   width: 393px;
   height: 60px;
+  left: 0px;
+  top: 58px;
 
 
 }
@@ -216,7 +218,6 @@ footer {
   left: 0;
   padding-left: 23px;
   padding-top: 36px;
-
 }
 
 .footer-container h4 {

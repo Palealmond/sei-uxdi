@@ -1,10 +1,12 @@
 import React from "react";
 import logo from '../assets/logo.svg'
+
+
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-container">
-        <img className="footer-image" src={logo}/>
+        <img className="footer-image" alt="" src={logo}/>
         <h4>About Us</h4>
         <h4>Careers</h4>
         <h4>Privacy Notice</h4>
