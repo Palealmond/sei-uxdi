@@ -10,12 +10,18 @@ export default function FullCard() {
         <img src={breakfast}
           style={{ width: "363px ", height: "230px" }}
           alt="breakfast"></img>
+        <div className="fulltext">
         <h4>
           Featured Breakfast Combo
         </h4>
         <p>
           Start off your morning with a delicious breakfast combo of your choice!
-        </p>
+          </p>
+          <button>
+            Browse Options
+          </button>
+
+          </div>
           
 
         
