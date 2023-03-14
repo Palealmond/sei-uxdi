@@ -13,11 +13,11 @@ const Header = () => {
     const date = new Date();
     const hours = date.getHours();
     if (hours < 12) {
-      return "Morning";
+      return "morning";
     } else if (hours < 18) {
-      return "Afternoon";
+      return "afternoon";
     } else {
-      return "Evening";
+      return "evening";
     }
   }
 
@@ -36,14 +36,14 @@ const Header = () => {
 
 
   return (
-    <header className="header-header">
-      <div className="header-container">
-        <button className="header-button" onClick={toggleTheme}>
-          {isDark ? "Light" : "Dark"}
-        </button>
-        <h1>Good {timeOfDay()}!</h1>
-      </div>
-    </header>
+    // <header className="header-header">
+    <div className="header-container">
+      <h1 className="header-h1">Good {timeOfDay()}</h1>
+      <button className="header-button" onClick={toggleTheme}>
+        {isDark ? "Light" : "Dark"}
+      </button>
+    </div>
+    // </header>
   );
 }
 
