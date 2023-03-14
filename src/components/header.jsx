@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react"
 
-export const Header = () => {
+
+
+const Header = () => {
   const [isDark, setIsDark] = useState(false);
 
   const toggleTheme = () => {
@@ -38,6 +40,5 @@ export const Header = () => {
         {isDark ? "Light" : "Dark"}
       </button>
     </div>
-    // </header>
   );
 }
