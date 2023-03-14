@@ -1,15 +1,13 @@
 import React, { useEffect, useState } from "react"
 
-
-
-const Header = () => {
+export const Header = () => {
   const [isDark, setIsDark] = useState(false);
 
   const toggleTheme = () => {
     setIsDark(!isDark);
   };
 
-  function timeOfDay() {
+  function timeOfDay() { 
     const date = new Date();
     const hours = date.getHours();
     if (hours < 12) {
@@ -31,10 +29,9 @@ const Header = () => {
     timeOfDay();
   }, []);
 
-
+  
 
   return (
-    // <header className="header-header">
     <div className="header-container">
       <h1 className="header-h1">Good {timeOfDay()}</h1>
       <button className="header-button" onClick={toggleTheme}>
@@ -44,5 +41,3 @@ const Header = () => {
     // </header>
   );
 }
-
-export default Header

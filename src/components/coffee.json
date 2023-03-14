@@ -1,4 +1,5 @@
 [
+ 
   {
     "productName":"Cappuccino",
     "description": "",
@@ -24,14 +25,14 @@
   },{
     "productName":"Americano",
     "description": "",
-    "img": ""
+    "img": "https://i.imgur.com/q87u9i1.png"
   },
     {
     "productName":"Peppermint Mocha",
     "description": "",
     "img": ""
-  },
-    {
+  }, 
+  {
     "productName":"Hazelnut Cappucino",
     "description": "",
     "img": ""
