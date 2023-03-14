@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react"
 
 
+
 const Header = () => {
   const [isDark, setIsDark] = useState(false);
 
@@ -8,7 +9,7 @@ const Header = () => {
     setIsDark(!isDark);
   };
 
-  function timeOfDay() {
+  function timeOfDay() { 
     const date = new Date();
     const hours = date.getHours();
     if (hours < 12) {
@@ -30,7 +31,7 @@ const Header = () => {
     timeOfDay();
   }, []);
 
-
+  
 
   return (
     <div className="header-container">
@@ -41,5 +42,3 @@ const Header = () => {
     </div>
   );
 }
-
-export default Header

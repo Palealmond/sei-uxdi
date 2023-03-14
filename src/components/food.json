@@ -1,11 +1,11 @@
 [{
   "productName":"Cheese Danish",
   "description": "",
-  "img": ""
+  "img": "https://i.imgur.com/DiF8OSt.png"
 },{
   "productName":"Peach Turnover",
   "description": "",
-  "img": ""
+  "img": "https://i.imgur.com/YSk2dtL.jpeg"
 },{
   "productName":"Ham and Cheese",
   "description": "",
@@ -13,13 +13,13 @@
 },{
   "productName":"Croissant",
   "description": "",
-  "img": ""
+  "img": "https://i.imgur.com/S5KdTJN.png"
 },{
   "productName":"Cinnamon Roll",
   "description": "",
-  "img": ""
+  "img": "https://i.imgur.com/cW3hzEi.jpeg"
 },{
   "productName":"Apple Turnover",
   "description": "",
-  "img": ""
+  "img": "https://i.imgur.com/Pd1celb.jpeg"
 }]
